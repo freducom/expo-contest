@@ -1,4 +1,3 @@
-//DO NOT TOUCH THIS FILE. YOU ONLY NEED TO TOUCH THE MyUI.java FILE
 package expo;
 
 import com.vaadin.server.Page;
@@ -9,12 +8,15 @@ import org.apache.commons.io.IOUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * DO NOT TOUCH THIS FILE. YOU ONLY NEED TO TOUCH THE MyUI.java FILE
+ */
+ 
 @Service
 class MyService {
-
     /**
-     * This methods signs you to the competition. It will also post your post
-     * your solutions to the competition server for manual validation. If there
+     * This methods signs you to the competition. It will also post your
+     * solutions to the competition server for manual validation. If there
      * is an issue when singing up, a runtime exception is thrown.
      * 
      * @param email the email of the participant
